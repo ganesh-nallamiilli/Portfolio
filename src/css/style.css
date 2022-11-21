@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+body{
+    background-color: #181818;
+}
+#name_{
+    font-family: 'Smokum', cursive;
+    letter-spacing: 5px;
+    border-left: 3px solid goldenrod;
+    padding-left: 5px;
+}
+.images_{
+    
+    transition: 0.6s;
+}
+.images_:hover{
+   
+    transform:scale(0.95);
+    border-bottom: 5px solid goldenrod;
+}
+#envelop_,#linkedin_,#instagram_,#github_{
+    font-size: 4rem;
+    transition: 0.6s;
+    cursor: pointer;
+}
+#envelop_:hover,#linkedin_:hover,#instagram_:hover,#github_:hover{
+    color: white;
+    transform: scale(0.5);
+
+}
